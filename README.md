@@ -27,6 +27,9 @@ Using the command /setcategory \[category\] \[role\] will assign a role to a cat
 
 The rest of the commands should be obvious.
 
+If you want an easy way to make categories that look like the ones in the screenshot, check out 
+[my role generator](https://kuwuda.github.io/Discord-Role-Category-Generator/rolecategorygenerator.html)
+
 ## Installing
 Install requirements: MongoDB, Golang, DiscordGo, MongoDb's go driver. Check the individual instructions on those!
 
