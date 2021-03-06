@@ -318,7 +318,7 @@ var (
 				})
 				return
 			}
-			err = unsetCategory(i.Data.Options[1].RoleValue(nil, "").ID, i.GuildID, db)
+			err = unsetCategory(i.Data.Options[0].RoleValue(nil, "").ID, i.GuildID, db)
 			if err != nil {
 				msgformat = err.Error()
 				s.InteractionRespond(i.Interaction, &discordgo.InteractionResponse{
